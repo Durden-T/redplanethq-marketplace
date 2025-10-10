@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"🧠 SESSION STARTED: Search memory for context about: $(basename $(pwd)) project, previous conversations, and related work. Do this before responding to user queries.\""
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/UserPromptSubmit.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

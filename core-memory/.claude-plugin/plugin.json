@@ -1,0 +1,15 @@
+{
+  "name": "core-memory",
+  "description": "Automatic CORE memory search and ingest plugin for Claude Code",
+  "version": "0.0.10",
+  "author": {
+    "name": "RedplanetHQ"
+  },
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": {
+    "core-memory": {
+      "type": "http",
+      "url": "https://core.heysol.ai/api/v1/mcp?source=Claude-Code"
+    }
+  }
+}
