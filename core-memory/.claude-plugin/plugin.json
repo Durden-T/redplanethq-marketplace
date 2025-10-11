@@ -1,11 +1,10 @@
 {
   "name": "core-memory",
   "description": "Automatic CORE memory search and ingest plugin for Claude Code",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "author": {
     "name": "RedplanetHQ"
   },
-  "hooks": "./hooks/hooks.json",
   "mcpServers": {
     "core-memory": {
       "type": "http",

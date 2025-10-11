@@ -2,7 +2,6 @@
 name: memory-ingest
 description: AUTOMATICALLY invoke after completing interactions. Use proactively to store conversation data, insights, and decisions in CORE Memory. Essential for maintaining continuity across sessions.
 tools: mcp__plugin_core-memory_core-memory__memory_ingest
-model: sonnet
 color: purple
 ---
 

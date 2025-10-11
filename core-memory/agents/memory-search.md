@@ -2,7 +2,6 @@
 name: memory-search
 description: AUTOMATICALLY invoke for memory searches. Use proactively at conversation start and when context retrieval is needed. Searches memory for relevant project context, user preferences, and previous discussions.
 tools: mcp__plugin_core-memory_core-memory__memory_search
-model: sonnet
 color: green
 ---
 
