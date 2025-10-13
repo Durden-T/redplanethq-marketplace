@@ -7,7 +7,7 @@ A curated collection of Claude Code plugins maintained by RedplanetHQ.
 To add this marketplace to your Claude Code installation:
 
 ```bash
-/plugin marketplace add redplanethq/redplanethq-marketplace
+/plugin marketplace add https://github.com/RedPlanetHQ/redplanethq-marketplace.git
 ```
 
 After adding the marketplace, you can browse and install plugins from it.
