@@ -2,6 +2,28 @@
 
 A curated collection of Claude Code plugins maintained by RedplanetHQ.
 
+## What is CORE Memory?
+
+CORE is an open-source AI memory system that gives Claude Code and other coding agents persistent memory across all your sessions. Instead of re-explaining your codebase, architecture decisions, and coding patterns every time, CORE remembers everything.
+
+**The Problem:** Claude Code forgets everything when you close it. Every session starts from scratch.
+
+**The Solution:** CORE uses a temporal knowledge graph to remember:
+- Your codebase architecture and patterns
+- When and why you made decisions
+- Context from previous conversations
+- Your coding preferences and standards
+
+**The Result:** After a few weeks, Claude Code develops deep understanding of your projects - like a living wiki that actually remembers your context.
+
+🏆 **Proven Results:** CORE achieved 88.24% accuracy on the LoCoMo benchmark (current state-of-the-art for AI memory systems)
+
+**Learn more:** 
+- [Main Repo:RedPlanetHQ/core](https://github.com/RedPlanetHQ/core)
+- [Docs](https://docs.heysol.ai)
+- [Website](https://heysol.ai)
+
+
 ## Installation
 
 To add this marketplace to your Claude Code installation:
@@ -16,14 +38,15 @@ After adding the marketplace, you can browse and install plugins from it.
 
 ### core-memory
 
-Automatic CORE memory search and ingest plugin that helps Claude Code maintain context across conversations.
+**Stop re-explaining your codebase every session.** 
 
-**Features:**
-- Automatic memory search at the start of every conversation
-- Automatic memory ingestion after completing responses
-- Manual search and ingest commands
-- Specialized agents for memory operations
-- Session start hooks for context loading
+This plugin connects Claude Code to CORE Memory, giving it persistent memory across all your coding sessions. Claude automatically remembers your architecture, decisions, and patterns.
+
+**How it works:**
+- Automatic memory search at conversation start
+- Automatic context capture after responses  
+- Manual search and ingest commands available
+- Session hooks for context loading
 
 **Installation:**
 
