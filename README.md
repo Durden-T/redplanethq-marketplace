@@ -69,8 +69,9 @@ Follow the authentication prompts to connect your CORE Memory account.
 
 The plugin automatically searches and stores memories through hooks, but you can also use manual commands:
 
-- `/search <query>` - Search CORE memory for specific information
-- `/ingest` - Manually trigger memory ingest for the current conversation
+- `/core-memory:init` - Initialize CORE memory with comprehensive project context
+- `/core-memory:search` - Search CORE memory for specific information
+- `/core-memory:ingest` - Manually trigger memory ingest for the current conversation
 
 **How it works:**
 
