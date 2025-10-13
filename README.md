@@ -28,12 +28,13 @@ Automatic CORE memory search and ingest plugin that helps Claude Code maintain c
 **Installation:**
 
 ```bash
-/plugin install redplanethq/core-memory
+/plugin install core-memory@redplanethq
 ```
+After installing the plugin, restart claude to load the plugin
 
 **Authentication:**
 
-After installing the plugin, you need to authenticate with the CORE Memory MCP server:
+After restarting the Claude, you need to authenticate with the CORE Memory MCP server:
 
 ```bash
 /mcp
