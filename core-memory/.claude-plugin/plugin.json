@@ -1,7 +1,7 @@
 {
   "name": "core-memory",
   "description": "Automatic CORE memory search and ingest plugin for Claude Code",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "author": {
     "name": "RedplanetHQ"
   },
