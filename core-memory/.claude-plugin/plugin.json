@@ -8,7 +8,7 @@
   "mcpServers": {
     "core-memory": {
       "type": "http",
-      "url": "https://core.heysol.ai/api/v1/mcp?source=Claude-Code"
+      "url": "http://localhost:3033/api/v1/mcp?source=Claude-Code"
     }
   }
 }
